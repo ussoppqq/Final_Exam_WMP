@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enrollment Menu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Structure and Algorithm (6 credits)"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNumerical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numerical Method (6 credits)"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxWMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wireless and Mobile Programming (6 credits)"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artificial Intelligence (6 credits)"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Engineering (6 credits)"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCalculus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculus (6 credits)"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/textViewTotalCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Total Credits: 0"
+        android:textSize="18sp"
+        android:textColor="#7F8C8D"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Enrollment"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/buttonSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Summary"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp" />
+
+</LinearLayout>
